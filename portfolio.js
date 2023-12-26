@@ -71,7 +71,7 @@ let darkmode = document.querySelector('#darkMode-icon');
 darkmode.onclick = () => {
   darkmode.classList.toggle('bx-sun');
   document.body.classList.toggle('dark-mode');
-  darkmode.style.transition = ".5s ease";
+  darkmode.style.transition = "all 1s ease";
 
 
 }
